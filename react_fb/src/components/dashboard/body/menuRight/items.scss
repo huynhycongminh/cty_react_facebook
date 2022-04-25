@@ -1,0 +1,29 @@
+@import "/src/components/dashboard/Responese/minxing.scss";
+.item{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+   
+    .title_Item{
+        margin-left: 20px;
+        font-weight: 600;
+        display: inline;
+    }
+    .icon_Item {
+        font-size: medium;
+        color: #027a12c5;
+        margin-left: 190px;
+        
+    @include respond-to(lg){
+        margin-left: 120px;
+    }
+    @include respond-to(md){
+        margin-left: 100px;
+    }
+    }  
+}
+.item:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}

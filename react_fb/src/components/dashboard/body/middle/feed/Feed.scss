@@ -1,0 +1,26 @@
+@import "/src/components/dashboard/Responese/minxing.scss";
+.feed{
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include respond-to(lg){
+        padding: 30px 50px;
+    }
+    @include respond-to(md){
+      width: 600px;
+       margin-left: -170px;
+       padding: 30px 20px;
+    }
+    @include respond-to(sm){
+        width: 700px;
+       margin-left: -130px;
+        }
+        @include respond-to(xs){
+            width: 500px;
+           margin-left: -300px;
+            }
+  
+}
+
